@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		480279F6231D94BA00C2B590 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 480279F5231D94BA00C2B590 /* main.cpp */; };
+		48BC3642231F15FD00840616 /* operatros.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48BC3640231F15FD00840616 /* operatros.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		480279F2231D94BA00C2B590 /* cpp_1_lab */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cpp_1_lab; sourceTree = BUILT_PRODUCTS_DIR; };
 		480279F5231D94BA00C2B590 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		48BC3640231F15FD00840616 /* operatros.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = operatros.cpp; sourceTree = "<group>"; };
+		48BC3641231F15FD00840616 /* operatros.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = operatros.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				480279F5231D94BA00C2B590 /* main.cpp */,
+				48BC3640231F15FD00840616 /* operatros.cpp */,
+				48BC3641231F15FD00840616 /* operatros.hpp */,
 			);
 			path = cpp_1_lab;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				480279F6231D94BA00C2B590 /* main.cpp in Sources */,
+				48BC3642231F15FD00840616 /* operatros.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

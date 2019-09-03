@@ -8,10 +8,10 @@
 
 #include <iostream>
 
-int f1 (int);
+int addition(int, int);
 
 int main(int argc, const char * argv[]) {
-    std::cout << sizeof(int&) << '\n';
+    std::cout << addition(2, 3) << '\n';
     std::cin.clear();
     std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
     std::cin.get();
