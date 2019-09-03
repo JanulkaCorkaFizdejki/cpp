@@ -9,6 +9,8 @@
 #include <iostream>
 
 int numer_one = 1;
+int numer_two = 23;
+int const numer_all = 44;
 
 int main(int argc, const char * argv[]) {
     std::cout << numer_one << " to jest numer" << '\n';
