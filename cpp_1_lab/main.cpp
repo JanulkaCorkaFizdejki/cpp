@@ -7,11 +7,11 @@
 //
 
 #include <iostream>
-
+constexpr int g = 6;
 int addition(int, int);
 
 int main(int argc, const char * argv[]) {
-    std::cout << addition(2, 3) << '\n';
+    std::cout << addition(2, g) << '\n';
     std::cin.clear();
     std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
     std::cin.get();
